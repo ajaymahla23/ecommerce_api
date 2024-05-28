@@ -1,0 +1,46 @@
+/* Navbar.css */
+
+.navbar {
+
+
+    padding: 10px 0;
+}
+
+
+
+.navbar-logo {
+    font-size: 24px;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.navbar-link {
+    text-decoration: none;
+    color: #bbcad8;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-separator {
+    margin: 0;
+    color: #DEE2E6;
+}

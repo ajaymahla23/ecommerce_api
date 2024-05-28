@@ -1,0 +1,107 @@
+.switch {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+  }
+  
+  
+  
+  .slider {
+    background-color: #ccc;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    background-color: #fff;
+    bottom: 4px;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 26px;
+  }
+  
+  input:checked + .slider {
+    background-color: #66bb6a;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+
+
+  /* dashboard */
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,300&display=swap');
+*{
+  font-family: 'Roboto', sans-serif;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.box {
+  max-width: 100%; /* Ensure boxes don't exceed their container */
+  width: 100%;
+  height: 170px;
+  margin: 10px;
+  text-align: center;
+  padding: 30px;
+  background-color: orange;
+  color: white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.header {
+  background-color: grey;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .header {
+    width: 100%; /* Adjust the header width for better alignment */
+  }
+}
+
+/* Responsive adjustments for large screens */
+@media (min-width: 992px) {
+  .header {
+    max-width: calc(100%); /* Three boxes per row */
+  }
+}
+.column {
+  flex: 1;
+  min-width: 100px; /* Adjust as needed */
+  margin-right: 10px; /* Adjust spacing between columns */
+}
+
+
+
+
+  
+  
